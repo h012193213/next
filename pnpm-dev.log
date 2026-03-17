@@ -1,0 +1,213 @@
+
+> @ dev C:\next
+> next dev --turbopack
+
+[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+   ▲ Next.js 16.0.10 (Turbopack)
+   - Local:         http://localhost:3000
+   - Network:       http://192.168.0.183:3000
+   - Environments: .env
+
+ ✓ Starting...
+ ⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+ ✓ Ready in 1788ms
+[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+ GET /login 200 in 3.4s (compile: 3.0s, proxy.ts: 180ms, render: 185ms)
+ GET /login?callbackUrl=http%3A%2F%2Flocalhost%3A3000%2Fdashboard 200 in 200ms (compile: 34ms, proxy.ts: 23ms, render: 142ms)
+ ○ Compiling / ...
+ GET / 200 in 4.1s (compile: 3.3s, proxy.ts: 18ms, render: 811ms)
+ GET /login 200 in 188ms (compile: 14ms, proxy.ts: 29ms, render: 146ms)
+ GET / 200 in 110ms (compile: 9ms, proxy.ts: 14ms, render: 87ms)
+ GET /login 200 in 126ms (compile: 10ms, proxy.ts: 12ms, render: 103ms)
+ GET /login?callbackUrl=http%3A%2F%2Flocalhost%3A3000%2Fdashboard 200 in 93ms (compile: 9ms, proxy.ts: 7ms, render: 77ms)
+ GET /api/auth/signin 404 in 774ms (compile: 643ms, render: 131ms)
+ GET /login 200 in 152ms (compile: 31ms, proxy.ts: 10ms, render: 111ms)
+ GET /login?callbackUrl=http%3A%2F%2Flocalhost%3A3000%2Fdashboard 200 in 70ms (compile: 11ms, proxy.ts: 5ms, render: 55ms)
+ GET /login?callbackUrl=http%3A%2F%2Flocalhost%3A3000%2Fdashboard%2Fcustomers 200 in 81ms (compile: 7ms, proxy.ts: 12ms, render: 62ms)
+(node:10736) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+ GET /dashboard/customers 200 in 1683ms (compile: 1481ms, proxy.ts: 35ms, render: 168ms)
+ POST /login?callbackUrl=http%3A%2F%2Flocalhost%3A3000%2Fdashboard%2Fcustomers 303 in 6.3s (compile: 5ms, proxy.ts: 12ms, render: 6.3s)
+ GET /dashboard/invoices 200 in 3.6s (compile: 414ms, proxy.ts: 11ms, render: 3.2s)
+Fetching revenue data...
+Data fetch completed after 3 seconds.
+ GET /dashboard 200 in 6.0s (compile: 336ms, proxy.ts: 9ms, render: 5.6s)
+ GET / 200 in 36ms (compile: 4ms, proxy.ts: 3ms, render: 29ms)
+ POST /dashboard 303 in 101ms (compile: 5ms, proxy.ts: 9ms, render: 86ms)
+ GET /login 200 in 24ms (compile: 4ms, proxy.ts: 4ms, render: 16ms)
+Fetching revenue data...
+Data fetch completed after 3 seconds.
+ GET /dashboard 200 in 3.7s (compile: 3ms, proxy.ts: 9ms, render: 3.7s)
+ POST /login 303 in 4.1s (compile: 3ms, proxy.ts: 5ms, render: 4.1s)
+ ⚠ Fast Refresh had to perform a full reload when ./node_modules/.pnpm/next@16.0.10_@babel+core@7._7056eef3747f3bce55224e764d963c35/node_modules/next/dist/client/image-component.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ✓ Compiled in 1315ms
+ ⚠ Fast Refresh had to perform a full reload when ./node_modules/.pnpm/next@16.0.10_@babel+core@7._7056eef3747f3bce55224e764d963c35/node_modules/next/dist/client/image-component.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET /dashboard 200 in 1437ms (compile: 837ms, proxy.ts: 156ms, render: 444ms)
+Fetching revenue data...
+ ✓ Compiled in 1639ms
+ GET /dashboard 200 in 5.7s (compile: 17ms, proxy.ts: 45ms, render: 5.6s)
+ GET /dashboard 200 in 1381ms (compile: 944ms, proxy.ts: 39ms, render: 397ms)
+ GET /dashboard 200 in 300ms (compile: 124ms, proxy.ts: 34ms, render: 142ms)
+Data fetch completed after 3 seconds.
+Fetching revenue data...
+Data fetch completed after 3 seconds.
+ GET /dashboard 200 in 7.2s (compile: 20ms, proxy.ts: 60ms, render: 7.1s)
+Fetching revenue data...
+Data fetch completed after 3 seconds.
+ GET /dashboard 200 in 3.6s (compile: 9ms, proxy.ts: 34ms, render: 3.6s)
+ ✓ Compiled in 622ms
+Fetching revenue data...
+Fetching revenue data...
+Fetching revenue data...
+Fetching revenue data...
+Fetching revenue data...
+Fetching revenue data...
+Data fetch completed after 3 seconds.
+ GET /dashboard 200 in 7.1s (compile: 5ms, proxy.ts: 9ms, render: 7.1s)
+Data fetch completed after 3 seconds.
+ GET /dashboard 200 in 7.4s (compile: 9ms, proxy.ts: 18ms, render: 7.4s)
+Data fetch completed after 3 seconds.
+ GET /dashboard 200 in 7.3s (compile: 7ms, proxy.ts: 8ms, render: 7.3s)
+ ✓ Compiled in 131ms
+Fetching revenue data...
+Data fetch completed after 3 seconds.
+ GET /dashboard 200 in 7.8s (compile: 8ms, proxy.ts: 9ms, render: 7.8s)
+Data fetch completed after 3 seconds.
+ GET /dashboard 200 in 9.0s (compile: 10ms, proxy.ts: 17ms, render: 9.0s)
+Data fetch completed after 3 seconds.
+ GET /dashboard 200 in 9.8s (compile: 351ms, proxy.ts: 142ms, render: 9.3s)
+Data fetch completed after 3 seconds.
+ GET /dashboard 200 in 4.0s (compile: 4ms, proxy.ts: 8ms, render: 4.0s)
+Fetching revenue data...
+ GET /dashboard/invoices 200 in 5.7s (compile: 932ms, proxy.ts: 8ms, render: 4.8s)
+Data fetch completed after 3 seconds.
+ GET /dashboard 200 in 4.5s (compile: 5ms, proxy.ts: 11ms, render: 4.5s)
+Fetching revenue data...
+Data fetch completed after 3 seconds.
+ GET /dashboard 200 in 3.6s (compile: 43ms, proxy.ts: 26ms, render: 3.6s)
+Fetching revenue data...
+Data fetch completed after 3 seconds.
+ GET /dashboard 200 in 3.6s (compile: 4ms, proxy.ts: 7ms, render: 3.6s)
+ ✓ Compiled in 99ms
+ GET /dashboard/invoices 200 in 1084ms (compile: 4ms, proxy.ts: 9ms, render: 1070ms)
+ GET / 200 in 133ms (compile: 84ms, proxy.ts: 3ms, render: 45ms)
+ POST /dashboard/invoices 303 in 249ms (compile: 8ms, proxy.ts: 23ms, render: 218ms)
+ GET /login 200 in 222ms (compile: 189ms, proxy.ts: 5ms, render: 29ms)
+ GET /login 200 in 109ms (compile: 3ms, proxy.ts: 3ms, render: 103ms)
+Fetching revenue data...
+Data fetch completed after 3 seconds.
+ GET /dashboard 200 in 3.6s (compile: 12ms, proxy.ts: 9ms, render: 3.5s)
+ POST /login 303 in 14.1s (compile: 4ms, proxy.ts: 10ms, render: 14.0s)
+ GET /dashboard/invoices 200 in 831ms (compile: 10ms, proxy.ts: 13ms, render: 808ms)
+ GET /dashboard/invoices 200 in 1196ms (compile: 9ms, proxy.ts: 13ms, render: 1174ms)
+ ✓ Compiled in 77ms
+ GET /dashboard/invoices 200 in 580ms (compile: 7ms, proxy.ts: 14ms, render: 559ms)
+Fetching revenue data...
+Data fetch completed after 3 seconds.
+ GET /dashboard 200 in 8.5s (compile: 161ms, proxy.ts: 12ms, render: 8.4s)
+Fetching revenue data...
+Data fetch completed after 3 seconds.
+ GET /dashboard 200 in 3.9s (compile: 7ms, proxy.ts: 14ms, render: 3.9s)
+ GET /dashboard/customers 200 in 204ms (compile: 148ms, proxy.ts: 12ms, render: 44ms)
+Fetching revenue data...
+Data fetch completed after 3 seconds.
+ GET /dashboard 200 in 4.1s (compile: 6ms, proxy.ts: 7ms, render: 4.1s)
+ GET /dashboard/invoices 200 in 1115ms (compile: 12ms, proxy.ts: 11ms, render: 1093ms)
+ GET /dashboard/invoices 200 in 1527ms (compile: 8ms, proxy.ts: 13ms, render: 1506ms)
+ ✓ Compiled in 89ms
+ GET /dashboard/invoices 200 in 572ms (compile: 4ms, proxy.ts: 8ms, render: 560ms)
+ GET /dashboard/customers 200 in 305ms (compile: 208ms, proxy.ts: 13ms, render: 84ms)
+Fetching revenue data...
+Data fetch completed after 3 seconds.
+ GET /dashboard 200 in 3.7s (compile: 123ms, proxy.ts: 15ms, render: 3.6s)
+Fetching revenue data...
+Data fetch completed after 3 seconds.
+ GET /dashboard 200 in 3.6s (compile: 29ms, proxy.ts: 26ms, render: 3.6s)
+Fetching revenue data...
+ GET /dashboard 200 in 1104ms (compile: 9ms, proxy.ts: 14ms, render: 1081ms)
+Fetching revenue data...
+ GET /dashboard/invoices 200 in 840ms (compile: 7ms, proxy.ts: 9ms, render: 825ms)
+ GET /dashboard/customers 200 in 34ms (compile: 6ms, proxy.ts: 8ms, render: 19ms)
+Data fetch completed after 3 seconds.
+Data fetch completed after 3 seconds.
+ GET /dashboard 200 in 3.6s (compile: 8ms, proxy.ts: 12ms, render: 3.6s)
+Fetching revenue data...
+Data fetch completed after 3 seconds.
+ GET /dashboard 200 in 3.8s (compile: 6ms, proxy.ts: 16ms, render: 3.8s)
+Fetching revenue data...
+Data fetch completed after 3 seconds.
+ GET /dashboard 200 in 3.6s (compile: 8ms, proxy.ts: 12ms, render: 3.6s)
+ GET /dashboard/invoices 200 in 628ms (compile: 7ms, proxy.ts: 22ms, render: 598ms)
+Fetching revenue data...
+Data fetch completed after 3 seconds.
+ GET /dashboard 200 in 3.6s (compile: 7ms, proxy.ts: 16ms, render: 3.6s)
+ GET /dashboard/invoices/create 200 in 5.0s (compile: 1949ms, proxy.ts: 14ms, render: 3.1s)
+Fetching revenue data...
+Data fetch completed after 3 seconds.
+ GET /dashboard 200 in 3.8s (compile: 8ms, proxy.ts: 14ms, render: 3.8s)
+ GET /dashboard/invoices/create 200 in 435ms (compile: 6ms, proxy.ts: 14ms, render: 415ms)
+Fetching revenue data...
+Data fetch completed after 3 seconds.
+ GET /dashboard 200 in 3.6s (compile: 5ms, proxy.ts: 25ms, render: 3.6s)
+Fetching revenue data...
+ GET /dashboard/invoices 200 in 10.5s (compile: 5ms, proxy.ts: 12ms, render: 10.5s)
+Data fetch completed after 3 seconds.
+ GET /dashboard 200 in 3.6s (compile: 4ms, proxy.ts: 7ms, render: 3.5s)
+(node:12516) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[
+  {
+    id: 'a1ca0f5b-5a19-4673-bcd2-cf0732872729',
+    customer_id: 'cc27c14a-0acf-4f4a-a6c9-d45682c144b9',
+    amount: 88,
+    status: 'paid'
+  }
+]
+ GET /dashboard/invoices/a1ca0f5b-5a19-4673-bcd2-cf0732872729/edit 200 in 4.0s (compile: 1607ms, proxy.ts: 9ms, render: 2.4s)
+Fetching revenue data...
+[
+  {
+    id: 'a1ca0f5b-5a19-4673-bcd2-cf0732872729',
+    customer_id: 'cc27c14a-0acf-4f4a-a6c9-d45682c144b9',
+    amount: 88,
+    status: 'paid'
+  }
+]
+(node:30344) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+ GET /dashboard/invoices/a1ca0f5b-5a19-4673-bcd2-cf0732872729/edit 200 in 1135ms (compile: 39ms, proxy.ts: 13ms, render: 1083ms)
+Data fetch completed after 3 seconds.
+ GET /dashboard 200 in 3.6s (compile: 5ms, proxy.ts: 8ms, render: 3.6s)
+Fetching revenue data...
+ GET /dashboard 200 in 3.0s (compile: 3ms, proxy.ts: 7ms, render: 3.0s)
+Data fetch completed after 3 seconds.
+(node:5572) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[]
+ GET /dashboard/invoices/a1ca0f5b-5a19-4673-bcd2-cf0732872719/edit 404 in 3.4s (compile: 86ms, proxy.ts: 68ms, render: 3.3s)
+ GET /dashboard/invoices 200 in 3.5s (compile: 62ms, proxy.ts: 31ms, render: 3.4s)
+Fetching revenue data...
+Data fetch completed after 3 seconds.
+ GET /dashboard 200 in 5.9s (compile: 11ms, proxy.ts: 23ms, render: 5.9s)
+(node:10736) TimeoutNegativeWarning: -3341779.623401832 is a negative number.
+Timeout duration was set to 1.
+Fetching revenue data...
+Fetching revenue data...
+Data fetch completed after 3 seconds.
+ GET /dashboard 200 in 8.8s (compile: 208ms, proxy.ts: 652ms, render: 8.0s)
+Data fetch completed after 3 seconds.
+ GET /dashboard 200 in 7.9s (compile: 19ms, proxy.ts: 22ms, render: 7.8s)
+Fetching revenue data...
+ GET /dashboard/invoices 200 in 5.1s (compile: 16ms, proxy.ts: 12ms, render: 5.0s)
+ GET /dashboard/invoices 200 in 3.5s (compile: 10ms, proxy.ts: 11ms, render: 3.4s)
+Data fetch completed after 3 seconds.
+ GET /dashboard 200 in 4.1s (compile: 8ms, proxy.ts: 9ms, render: 4.1s)
+ GET /dashboard/invoices/create 200 in 7.2s (compile: 13ms, proxy.ts: 7ms, render: 7.1s)
+Fetching revenue data...
+ GET /dashboard/invoices/create 200 in 3.3s (compile: 6ms, proxy.ts: 8ms, render: 3.3s)
+Data fetch completed after 3 seconds.
+ GET /dashboard 200 in 3.8s (compile: 7ms, proxy.ts: 10ms, render: 3.8s)
+Fetching revenue data...
+ GET /dashboard/invoices 200 in 798ms (compile: 6ms, proxy.ts: 7ms, render: 784ms)
+Data fetch completed after 3 seconds.
+ GET /dashboard 200 in 3.6s (compile: 5ms, proxy.ts: 10ms, render: 3.6s)

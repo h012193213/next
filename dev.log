@@ -1,0 +1,43 @@
+
+> @ dev C:\next
+> next dev --turbopack
+
+[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+   ▲ Next.js 16.0.10 (Turbopack)
+   - Local:         http://localhost:3000
+   - Network:       http://192.168.0.183:3000
+   - Environments: .env
+
+ ✓ Starting...
+ ⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+ ✓ Ready in 2.1s
+[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+ ○ Compiling /_not-found/page ...
+ GET /login?callbackUrl=http%3A%2F%2Flocalhost%3A3000%2Fdashboard%2Fcustomers 404 in 4.3s (compile: 4.0s, proxy.ts: 167ms, render: 184ms)
+ GET /login 404 in 74ms (compile: 19ms, proxy.ts: 7ms, render: 48ms)
+ GET / 200 in 629ms (compile: 509ms, proxy.ts: 7ms, render: 113ms)
+ GET /login 404 in 75ms (compile: 14ms, proxy.ts: 8ms, render: 54ms)
+ ✓ Compiled in 317ms
+ GET /login 200 in 3.0s (compile: 2.5s, proxy.ts: 170ms, render: 304ms)
+ GET /login 200 in 133ms (compile: 35ms, proxy.ts: 21ms, render: 77ms)
+ GET /login 200 in 157ms (compile: 23ms, proxy.ts: 26ms, render: 108ms)
+ GET /login 200 in 284ms (compile: 82ms, proxy.ts: 28ms, render: 174ms)
+ GET /login 200 in 139ms (compile: 14ms, proxy.ts: 20ms, render: 104ms)
+ GET /login 200 in 158ms (compile: 11ms, proxy.ts: 18ms, render: 130ms)
+ GET /login 200 in 94ms (compile: 16ms, proxy.ts: 19ms, render: 59ms)
+ GET /login 200 in 102ms (compile: 12ms, proxy.ts: 14ms, render: 76ms)
+ GET /login 200 in 91ms (compile: 14ms, proxy.ts: 18ms, render: 59ms)
+ GET /login 200 in 94ms (compile: 11ms, proxy.ts: 13ms, render: 70ms)
+ GET /login 200 in 126ms (compile: 16ms, proxy.ts: 19ms, render: 92ms)
+ GET /login 200 in 125ms (compile: 35ms, proxy.ts: 22ms, render: 69ms)
+ GET /login 200 in 116ms (compile: 13ms, proxy.ts: 17ms, render: 85ms)
+ GET /login 200 in 96ms (compile: 9ms, proxy.ts: 18ms, render: 68ms)
+ GET /login 200 in 138ms (compile: 12ms, proxy.ts: 20ms, render: 106ms)
+ GET /login 200 in 85ms (compile: 15ms, proxy.ts: 14ms, render: 56ms)
+ GET /login 200 in 72ms (compile: 10ms, proxy.ts: 11ms, render: 52ms)
+ GET /login 200 in 100ms (compile: 10ms, proxy.ts: 13ms, render: 77ms)
+ GET /login 200 in 81ms (compile: 10ms, proxy.ts: 17ms, render: 55ms)
+ GET /login 200 in 86ms (compile: 13ms, proxy.ts: 17ms, render: 57ms)
+[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+[?25h
+ ELIFECYCLE  Command failed with exit code 1.
