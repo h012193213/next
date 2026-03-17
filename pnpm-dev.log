@@ -211,3 +211,55 @@ Fetching revenue data...
  GET /dashboard/invoices 200 in 798ms (compile: 6ms, proxy.ts: 7ms, render: 784ms)
 Data fetch completed after 3 seconds.
  GET /dashboard 200 in 3.6s (compile: 5ms, proxy.ts: 10ms, render: 3.6s)
+Fetching revenue data...
+Fetching revenue data...
+Data fetch completed after 3 seconds.
+ GET /dashboard 200 in 6.4s (compile: 7ms, proxy.ts: 11ms, render: 6.3s)
+Data fetch completed after 3 seconds.
+ GET /dashboard 200 in 6.7s (compile: 55ms, proxy.ts: 116ms, render: 6.5s)
+Fetching revenue data...
+ GET /dashboard/invoices 200 in 4.8s (compile: 9ms, proxy.ts: 44ms, render: 4.7s)
+Data fetch completed after 3 seconds.
+ GET /dashboard 200 in 3.9s (compile: 130ms, proxy.ts: 7ms, render: 3.8s)
+(node:1992) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[
+  {
+    id: '7d76e94f-1349-4fa6-a5a1-f82f25b8d015',
+    customer_id: '3958dc9e-712f-4377-85e9-fec4b6a6442a',
+    amount: 5,
+    status: 'paid'
+  }
+]
+ GET /dashboard/invoices/7d76e94f-1349-4fa6-a5a1-f82f25b8d015/edit 200 in 2.6s (compile: 27ms, proxy.ts: 8ms, render: 2.6s)
+ GET /dashboard/invoices 200 in 572ms (compile: 7ms, proxy.ts: 8ms, render: 558ms)
+Fetching revenue data...
+Data fetch completed after 3 seconds.
+ GET /dashboard 200 in 3.6s (compile: 5ms, proxy.ts: 9ms, render: 3.6s)
+ GET /dashboard/invoices 200 in 4.0s (compile: 11ms, proxy.ts: 18ms, render: 3.9s)
+ GET /dashboard 200 in 887ms (compile: 9ms, proxy.ts: 8ms, render: 870ms)
+Fetching revenue data...
+Data fetch completed after 3 seconds.
+Fetching revenue data...
+Data fetch completed after 3 seconds.
+ GET /dashboard 200 in 7.9s (compile: 193ms, proxy.ts: 27ms, render: 7.7s)
+Fetching revenue data...
+Data fetch completed after 3 seconds.
+ GET /dashboard 200 in 4.2s (compile: 6ms, proxy.ts: 7ms, render: 4.2s)
+Fetching revenue data...
+Data fetch completed after 3 seconds.
+ GET /dashboard 200 in 3.8s (compile: 22ms, proxy.ts: 20ms, render: 3.8s)
+Fetching revenue data...
+Data fetch completed after 3 seconds.
+ GET /dashboard 200 in 3.6s (compile: 5ms, proxy.ts: 11ms, render: 3.5s)
+ GET / 200 in 53ms (compile: 13ms, proxy.ts: 3ms, render: 37ms)
+ POST /dashboard 303 in 147ms (compile: 7ms, proxy.ts: 17ms, render: 122ms)
+ GET /login 200 in 57ms (compile: 20ms, proxy.ts: 5ms, render: 32ms)
+Fetching revenue data...
+Fetching revenue data...
+Data fetch completed after 3 seconds.
+ GET /dashboard 200 in 3.5s (compile: 4ms, proxy.ts: 7ms, render: 3.5s)
+ POST /login 303 in 6.2s (compile: 4ms, proxy.ts: 4ms, render: 6.2s)
+Data fetch completed after 3 seconds.
+ GET /dashboard 200 in 6.5s (compile: 9ms, proxy.ts: 14ms, render: 6.4s)
+ ELIFECYCLE  Command failed with exit code 1.
